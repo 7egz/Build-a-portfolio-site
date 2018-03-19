@@ -1,168 +1,131 @@
 [class*="zocial-"]:before {
-  color: #2d3c49;
-  font-family: 'zocial', sans-serif;
-  text-shadow: 3px 3px 3px #aaa;
-  padding-right: 15px;
+	color: #2d3c49;
+	font-family: 'zocial', sans-serif;
+	text-shadow: 3px 3px 3px #aaa;
+	padding-right: 15px;
 }
-
 [class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-  color: #2d3c49;
-  text-shadow: 3px 3px 3px #aaa;
-  padding-right: 15px;
+	font-family: 'brandico', sans-serif;
+	color: #2d3c49;
+	text-shadow: 3px 3px 3px #aaa;
+	padding-right: 15px;
 }
-
-.header{
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 4px #7d97ad solid;
-    
+.header {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 4px #7d97ad solid;
 }
-
-.logo{
-    width: 70%;
+.logo {
+	width: 70%;
 }
-
-.logo img{
-    max-width: 200px;
+.logo img {
+	max-width: 200px;
 }
-
-.identy{
-    max-width: 30%;
-    text-align: center;
-    margin-top: 10px;
+.identy {
+	max-width: 30%;
+	text-align: center;
+	margin-top: 10px;
 }
-
-.identy h1 ,p{
-    color: #02b3e4;
+.identy h2, p {
+	color: #02b3e4;
 }
-
-.container{
-    display: flex;
-    flex-wrap: wrap;    
+.container {
+	display: flex;
+	flex-wrap: wrap;
 }
-
-.cover{
- width: 100%;
- margin-top: 30px ;
- box-shadow: 4px 2px 4px 0 #888;
+.cover {
+	width: 100%;
+	margin-top: 30px;
+	box-shadow: 4px 2px 4px 0 #888;
 }
-
-.cover img{
-    width: 100%;
-    max-width: 100%;
-    
+.cover img {
+	width: 100%;
+	max-width: 100%;
 }
-
-.feature-work{
-    width: 100%;
-    font-size: 1.5em;
-    color: #7d97ad;
-    margin-left: 15px;
+.feature-work {
+	width: 100%;
+	font-size: 1.5em;
+	color: #7d97ad;
+	margin-left: 15px;
 }
-
-.box{
-    width: 100%;
-    box-shadow: 2px 2px 4px 0 #2d3c49;
+.box {
+	width: 100%;
+	box-shadow: 2px 2px 4px 0 #2d3c49;
 	text-align: center;
 	margin: 10px;
 	padding: 10px;
 }
-
-.box img{
-    max-width: 100%;
-    height: 232px;
+.box img {
+	max-width: 100%;
+	height: 232px;
 }
-
-.box a{
-    text-decoration: none;
-    color: black;
-    
+.box a {
+	text-decoration: none;
+	color: black;
 }
-
-.box:hover{
-    background-color: #2d3c49;
-    color: white;
+.box:hover {
+	background-color: #2d3c49;
+	color: white;
 }
-
-.box:hover a{
-    color: white;
+.box:hover a {
+	color: white;
 }
-
-footer{
-        width: 50%;
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
+footer {
+	width: 50%;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
 }
-
-footer ul{
-    list-style: none;
-    max-width: 100%;
+footer ul {
+	list-style: none;
+	max-width: 100%;
 }
-
-.logoo{
-    width: 50%;
-    font-size: 1.5em;
-    padding-bottom: 10px;
-    color: #02b3e4;
+.logoo {
+	width: 50%;
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	color: #02b3e4;
 }
-
-footer p{
-    color: #2d3c49
-;
+footer p {
+	color: #2d3c49;
 }
-
-ul a{
-    text-decoration: none;
+@media screen and (max-width: 550px) {
+	.header {
+		text-align: center;
+		display: block;
+	}
+	.logo {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.identy {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.feature-work {
+		text-align: center;
+	}
 }
-
-    
-@media screen and (max-width: 550px){
-    .header{
-        text-align: center;
-        display: block;
-    }
-    .logo{
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    .identy{
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    .feature-work{
-        text-align: center;
-    }
-    
+@media screen and (min-width:700px) {
+	.box {
+		width: 29%;
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	footer {
+		width: 800px;
+	}
+	.logoo {
+		width: 24%;
+		display: inline-block;
+	}
 }
-
-@media screen and (min-width:700px){
-    .box{
-        width: 29%;
-        max-width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-     footer{
-        width: 800px;
-}
-
-.logoo{
-    width: 24%;
-    
-     display: inline-block; 
-    
-}
-    
-}
-
-@media screen and (min-width:800px){
-    .container{
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-   
+@media screen and (min-width:800px) {
+	.container {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
